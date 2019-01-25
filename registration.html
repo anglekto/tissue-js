@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Titan Issue Tracker - Registration</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="tissue.css">
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <a href="index.html"><img class="header" src="title.png" alt="Header"></a>
+  </header>
+  <nav>
+      <ul><center>
+      <li><a href="issues.html">Issues</a></li>
+      <li><a href="subscription-dashboard.html">Subscription Dashboard</a></li>
+      <li><a href="registration.html">Registration</a></li></center>
+    </ul>
+  </nav>
+    <main><center><h1>Registration</h1><br></center>
+
+      <center><table bgcolor="white" cellpadding="12" border="1">
+      <tr><td colspan="2"><center><font style="font-size:18px; font-weight:bold;">Create An Account</font></center></td></tr>
+      <form id="regForm" action="issues.html" method="post">
+        <tr><td><b>E-mail:</b></td> <td><input type="email" id="email" name="email" required></td></tr>
+        <tr><td><b>Password:</b></td> <td><input type="password" id="pass" name="pass" required></td></tr>
+        <tr><td><b>Confirm Password:</b></td> <td><input type="password" name="pass" required></td></tr>
+        <tr><td colspan="2"><center><input type="submit" value="Submit"></center></td></tr>
+      </form></table></center>
+
+  </main>
+  <footer>Copyright &copy; Tissue 2018
+  </footer>
+</div>
+
+<script src="UserStore.js"></script>
+<script src="registration.js"></script>
+
+</body>
+</html>

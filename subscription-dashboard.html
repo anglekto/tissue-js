@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Titan Issue Tracker - Subscription Dashboard</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="tissue.css">
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <a href="index.html"><img class="header" src="title.png" alt="Header"></a>
+  </header>
+  <nav>
+      <ul><center>
+      <li><a href="issues.html">Issues</a></li>
+      <li><a href="subscription-dashboard.html">Subscription Dashboard</a></li>
+      <li><a href="registration.html">Registration</a></li></center>
+    </ul>
+  </nav>
+    <main><center><h1>Subscription Dashboard</h1></center><br>
+      <center><font style="font-size:17px; font-family:georgia; font-weight:bold;">Legend</font> <font style="font-size:17px; font-family:georgia;">(<i># of Subscribers in Thousands</i>)</font></center>
+      <center><div style="height:100px;width:90%;border:2px solid black;font-size:17px;font-family:georgia;letter-spacing:-1px;overflow:auto;">
+        <font style="color:red; font-weight:bold;">January</font> - 40<br>
+        <font style="color:blue; font-weight:bold;">February</font> - 10<br>
+        <font style="color:orange; font-weight:bold;">March</font> - 100<br>
+        <font style="color:yellow; font-weight:bold;">April</font> - 65<br>
+        <font style="color:green; font-weight:bold;">May</font> - 75<br>
+        <font style="color:purple; font-weight:bold;">June</font> - 120<br>
+        <font style="color:sienna; font-weight:bold;">July</font> - 121<br>
+        <font style="color:brown; font-weight:bold;">August</font> - 175<br>
+        <font style="color:pink; font-weight:bold;">September</font> - 220<br>
+        <font style="color:olive; font-weight:bold;">October</font> - 275<br>
+        <font style="color:skyblue; font-weight:bold;">November</font> - 300<br>
+        <font style="color:lightyellow; font-weight:bold;">December</font> - 15<br>
+      </div></center><br>
+  <center><button onclick="reset()">Reset Graph</button></center>
+  <script src="subscriptions-graph.js"></script>
+  </main>
+    <footer>Copyright &copy; Tissue 2018
+    </footer>
+</div>
+</body>
+</html>
